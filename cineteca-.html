@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <h1>===== Tabela Simples =====</h1>
+    <table>
+        <caption>
+            Tabela Simples sem Bordas :-)
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Linha</th>
+                <th scope="col">Pessoas</th>
+                <th scope="col">Interesses</th>
+                <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Pelé</td>
+                <td>HTML 5</td>
+                <td>290</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Xuxa</td>
+                <td>C#</td>
+                <td>155</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Maradona</td>
+                <td>C++</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>CR7</td>
+                <td>COBOL</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Messi</td>
+                <td>COBOL</td>
+                <td>98</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="3">Média das Idades</th>
+            <td>171,6</td>
+        </tfoot>
+    </table>
+
+    <h1>===== Tabela com cores e bordas =====</h1>
+    <table border="1">
+        <caption style="color: white; background-color: mediumblue;">
+            Tabela Simples sem Bordas :-)
+        </caption>
+        <thead>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="col">Linha</th>
+                <th scope="col">Pessoas</th>
+                <th scope="col">Interesses</th>
+                <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">1</th>
+                <td>Pelé</td>
+                <td>HTML 5</td>
+                <td>290</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">2</th>
+                <td>Xuxa</td>
+                <td>C#</td>
+                <td>155</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">3</th>
+                <td>Maradona</td>
+                <td>C++</td>
+                <td>250</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">4</th>
+                <td>CR7</td>
+                <td>COBOL</td>
+                <td>99</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">5</th>
+                <td>Messi</td>
+                <td>COBOL</td>
+                <td>98</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="3" style="color: white; background-color: mediumblue;">Média das Idades</th>
+            <td style="color: white; background-color: mediumblue;">171,6</td>
+        </tfoot>
+    </table>
+
+    
+    <h1>===== Tabela com cores e bordas e imagens =====</h1>
+    <table border="1">
+        <caption style="color: white; background-color: mediumblue;">
+            Tabela Simples sem Bordas :-)
+        </caption>
+        <thead>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="col">Linha</th>
+                <th scope="col">Foto</th>
+                <th scope="col">Pessoas</th>
+                <th scope="col">Interesses</th>
+                <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">1</th>
+                <td><img src="./img/pele.jpg" width="100" height="100" alt="Pele quando jovem" title="pele em campo"></td>
+                <td>Pelé</td>
+                <td>HTML 5</td>
+                <td>290</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">2</th>
+                <td><img src="./img/xuxa.jpg" width="100" height="100" alt="xuxa quando jovem" title="capa de disco da xuxa"></td>
+             <td>Xuxa</td>
+                <td>C#</td>
+                <td>155</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">3</th>
+                <td><img src="./img/maradona.jpg" width="100" height="100" alt="maradona quando jovem" title="maradona em campo"></td>
+                <td>Maradona</td>
+                <td>C++</td>
+                <td>250</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">4</th>
+                <td><img src="./img/cr7.jpg" width="100" height="100" alt="Cr7  jogando" title="CR7 em campo"></td>
+                <td>CR7</td>
+                <td>COBOL</td>
+                <td>99</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">5</th>
+                <td><img src="./img/messi2.jpg" width="100" height="100" alt=" Messi jogando" title="Messi em campo"></td>
+                <td>Messi</td>
+                <td>COBOL</td>
+                <td>98</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="3" style="color: white; background-color: mediumblue;">Média das Idades</th>
+            <td style="color: white; background-color: mediumblue;">171,6</td>
+        </tfoot>
+    </table>
+
+    <h1>===== Tabela com cores e bordas e imagens, dimensão e hiperlink =====</h1>
+    <table border="1"> width=100% 
+        <caption style="color: white; background-color: mediumblue;">
+            Tabela Simples sem Bordas :-)
+        </caption>
+        <thead>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="col">Personalidades</th> 
+                <th scope="col">Linha</th>
+                <th scope="col">Foto</th>
+                <th scope="col">Pessoas</th>
+                <th scope="col">Interesses</th>
+                <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <th scope="col" "colspan=7"
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">1</th>
+                <td>
+                    <a href="https://www.pele10.org/"target="_blank" rel="noopener noreferrer"></a>
+                    <img src="./img/pele.jpg" width="100" height="100" alt="Pele quando jovem" title="pele em campo"></td>
+                  
+                <td>Pelé</td>
+                <td>HTML 5</td>
+                <td>290</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">2</th>
+                <td>
+                    <a href="https://xuxaverso.globo.com/"target="_blank" rel="noopener noreferrer"></a>
+
+                    <img src="./img/xuxa.jpg" width="100" height="100" alt="xuxa quando jovem" title="capa de disco da xuxa"></td>
+
+
+             <td>Xuxa</td>
+                <td>C#</td>
+                <td>155</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">3</th>
+                <td><img src="./img/maradona.jpg" width="100" height="100" alt="maradona quando jovem" title="maradona em campo"></td>
+                <td>Maradona</td>
+                <td>C++</td>
+                <td>250</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">4</th>
+                <td>
+                    <a href="https://www.cristianoronaldo.com/#cr7"target="_blank" rel="noopener noreferrer"></a>
+                    
+                    <img src="./img/cr7.jpg" width="100" height="100" alt="Cr7  jogando" title="CR7 em campo"></td>
+
+
+
+                <td>CR7</td>
+                <td>COBOL</td>
+                <td>99</td>
+            </tr>
+            <tr style="color: white; background-color: mediumblue;">
+                <th scope="row">5</th>
+                <td><img src="./img/messi2.jpg" width="100" height="100" alt=" Messi jogando" title="Messi em campo"></td>
+                <td>Messi</td>
+                <td>COBOL</td>
+                <td>98</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="3" style="color: white; background-color: mediumblue;">Média das Idades</th>
+            <td style="color: white; background-color: mediumblue;">171,6</td>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
